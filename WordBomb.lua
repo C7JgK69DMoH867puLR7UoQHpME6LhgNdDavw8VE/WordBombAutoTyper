@@ -34,8 +34,8 @@ local keys = {
 }
 local usedWords = {}
 local WordList = {
-    Normal    = loadstring(game:HttpGet("https://gist.githubusercontent.com/raw/6f3d37a9f5068a0fc2203ac77077ce06/", true))(),
-    LongWords = loadstring(game:HttpGet("https://pastebin.com/raw/UuzSb9XV", true))()
+    Normal    = loadstring(game:HttpGet("https://raw.githubusercontent.com/C7JgK69DMoH867puLR7UoQHpME6LhgNdDavw8VE/WordLists/main/Words", true))(),
+    LongWords = loadstring(game:HttpGet("https://raw.githubusercontent.com/C7JgK69DMoH867puLR7UoQHpME6LhgNdDavw8VE/WordLists/main/LongWords", true))()
 }
 -- functions --
 function FindLetters()
